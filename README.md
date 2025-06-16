@@ -2,6 +2,9 @@
 
 A Retrieval-Augmented Generation (RAG) system that answers user queries using recent news articles from [The Batch](https://www.deeplearning.ai/the-batch/). It integrates text, images and Gemini’s LLM to provide informed responses in a UI.
 
+## Live Demo
+[Try the Multimodal RAG Assistant](https://multimodalrag-test.streamlit.app/)
+
 ## Project structure
 ```text
 ├── app.py                 # Main Streamlit app
@@ -31,6 +34,8 @@ A Retrieval-Augmented Generation (RAG) system that answers user queries using re
 
         `streamlit run app.py`
 
+## Deployment
+The app is deployed on [Streamlit Cloud](https://streamlit.io/cloud). It is auto-rebuilt on commits to the `main` branch.
 
 ## Tools used
 - Google Gemini (1.5 Flash)
